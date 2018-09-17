@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SizeChanger() {
+export default function SizeChanger(props) {
   return (
     <select className="dropDownContainer">
       <option value="12"> 12 </option>

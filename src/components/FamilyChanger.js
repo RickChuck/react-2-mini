@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function FamilyChanger() {
+export default function FamilyChanger(props) {
   return (
     <select className="dropDownContainer">
       <option value="monospace"> Monospace </option>
